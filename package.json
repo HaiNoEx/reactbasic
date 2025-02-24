@@ -10,7 +10,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
-    "sass": "^1.85.0",
+    "style-loader": "^4.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -36,5 +36,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "postcss-loader": "^8.1.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.85.0",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.98.0"
   }
 }
